@@ -12,7 +12,7 @@ Popis instalace prostředí pomocí Dockeru nebo jiných metod.
 - Instalace závislostí (pip)
 - Nastavení prostředí (`.env`, konfigurace)
 
-## ⚙️ Konfigurace (Délka: ~300–500 slov)
+## ⚙️ Konfigurace (Délka: ~100–500 slov)
 Jaké **parametry** lze nastavit v každém modulu pro následnou inferenci:
 - **Segmentace scén**: nastavení detekční metody, thresholdy?
 - **OCR model**: výběr modelu (PaddleOCR, Tesseract), jazyk modelu
@@ -21,7 +21,7 @@ Jaké **parametry** lze nastavit v každém modulu pro následnou inferenci:
 - [`segmentace-scén/README.md`](segmentace-scén/README.md)
 - [`ocr/README.md`](ocr/README.md)
 
-## 🖼 GUI pro anotaci segmentů (Délka: ~400–600 slov)
+## 🖼 GUI pro anotaci segmentů (Délka: ~100–600 slov + screenshoty)
 Detailní popis ovládání GUI pro manuální anotaci:
 - Jak **načíst video** do GUI
 - Jak **označit scénu** jako střih
@@ -29,14 +29,14 @@ Detailní popis ovládání GUI pro manuální anotaci:
 
 📌 **Odkaz:** [`anotacni-gui/README.md`](anotacni-gui/README.md)
 
-## 👤 GUI Správa databáze osob (Délka: ~300–500 slov)
+## 👤 GUI Správa databáze osob (Délka: ~200 –500 slov + screenshoty)
 Jak přidat nové osoby do databáze:
 - Struktura databáze (vysvětlení adresáře)
 - Jak přidat nový obličej pomocí GUI
 
 📌 **Odkaz:** [`databaze-osob/README.md`](databaze-osob/README.md)
 
-## 🚀 Showcase: Jak program spustit (Délka: ~200–400 slov)
+## 🚀 Showcase: Jak program spustit (Délka: ~200–400 slov + console example)
 Příklad spuštění celého pipeline na testovacím videu:
 - Příprava vstupního videa
 - spuštění systému
