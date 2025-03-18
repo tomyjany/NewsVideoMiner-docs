@@ -5,7 +5,8 @@ Systém pro vizuální protěžbu videonahrávek televizních pořadů
 Tento projekt slouží k **automatickému zpracování televizních pořadů**. Obsahuje moduly pro **vizuální segmentaci scén, OCR textu a detekci/identifikaci osob**.
 
 ## 📥 Instalace (Délka: ~50 slov)
-Popis instalace prostředí pomocí Dockeru nebo jiných metod.
+Popis instalace prostředí
+- docker-compose instrukce (pokud na konci bude vůbec bude container)
 - Požadavky na prostředí (Python verze, knihovny)
 - Klonování repozitáře
 - Stažení ML modulů
@@ -16,6 +17,7 @@ Popis instalace prostředí pomocí Dockeru nebo jiných metod.
 Jaké **parametry** lze nastavit v každém modulu pro následnou inferenci:
 - **Segmentace scén**: nastavení detekční metody, thresholdy?
 - **OCR model**: výběr modelu (PaddleOCR, Tesseract), jazyk modelu
+- **Detektor televezních log**: výběr modelu (malý, větší, největší)
 
 📌 **Odkaz na README každého modulu:**
 - [`segmentace-scén/README.md`](segmentace-scén/README.md)
