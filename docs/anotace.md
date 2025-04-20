@@ -1,6 +1,6 @@
 ## 🖼 Anotační nástroj pro segmentaci videa (detekce střihů)
 
-Tento nástroj slouží k **ruční anotaci střihů ve videích**. Umožňuje pohodlně označit začátek a konec střihu, procházet jednotlivé snímky a uložit anotace do `.json` souboru pro další zpracování nebo trénování modelů.
+Tento nástroj slouží k **ruční anotaci střihů ve videích**. Umožňuje pohodlně označit začátek a konec střihu, procházet jednotlivé snímky a uložit anotace do souboru `.json` pro další zpracování nebo trénování modelů.
 
 ---
 
@@ -10,7 +10,7 @@ Tento nástroj slouží k **ruční anotaci střihů ve videích**. Umožňuje p
 2. Spusťte anotační nástroj s konkrétním videem:
 
 ```bash
-python -m AnnotationTool output.mp4
+python -m AnnotationTool video.mp4
 ```
 
 ---
@@ -56,13 +56,13 @@ Každý střih se zobrazí v seznamu. Pro jeho smazání:
 ### 💾 Uložení a načtení anotací
 
 - Anotace lze uložit a znovu načíst pomocí příslušných tlačítek v GUI.
-- Každý `.json` soubor obsahuje anotace pro jedno konkrétní video.
+- Každý soubor typu `.json` obsahuje anotace pro jedno konkrétní video.
 - Anotace se ukládají do **kořenového adresáře projektu**.
-- Pro jedno video lze vytvořit více sad anotací – každý `.json` soubor může mít jiné jméno.
+- Pro jedno video lze vytvořit více sad anotací – každý soubor typu `.json` může mít jiné jméno.
 
 ---
 
-### 📄 Formát výstupního JSON souboru
+### 📄 Formát výstupního souboru JSON 
 
 ```json
 {
