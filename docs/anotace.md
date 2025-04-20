@@ -6,7 +6,7 @@ Tento nástroj slouží k **ruční anotaci střihů ve videích**. Umožňuje p
 
 ### ▶️ Spuštění nástroje
 
-1. Ujistěte se, že máte nainstalováno prostředí dle pokynů v části [📥 Instalace](#📥-instalace) (lokální instalace).
+1. Ujistěte se, že máte nainstalováno prostředí dle pokynů v části [📥 Instalace](instalace.md) (lokální instalace).
 2. Spusťte anotační nástroj s konkrétním videem:
 
 ```bash
