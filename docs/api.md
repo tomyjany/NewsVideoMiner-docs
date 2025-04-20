@@ -1,10 +1,10 @@
-## 🛰 API rozhraní pro zpracování videa
+## 🛰 Rozhraní API pro zpracování videa
 
-Systém poskytuje jednoduché REST API, které slouží k analýze televizních pořadů. Endpoint podporuje nahrání video souboru a **volitelnou specifikaci parametrů** pro jednotlivé moduly (OCR, segmentace, detekce osob a log). Pokud parametry nejsou uvedeny, použijí se výchozí hodnoty ze souboru `config.yml`.
+Systém poskytuje jednoduché rozhrání REST API, které slouží k analýze televizních pořadů. Endpoint podporuje nahrání video souboru a **volitelnou specifikaci parametrů** pro jednotlivé moduly (OCR, segmentace, detekce osob a log). Pokud parametry nejsou uvedeny, použijí se výchozí hodnoty ze souboru `config.yml`.
 
 ---
 
-### 🌐 Swagger rozhraní
+### 🌐 Rozhraní Swagger
 
 API je vybaveno interaktivní dokumentací (Swagger UI), která je dostupná po spuštění služby na adrese:
 
@@ -91,7 +91,7 @@ print(response.json())
 
 ### 📤 Výstup
 
-Výsledkem je JSON obsahující seznam segmentů (scén), kde každá obsahuje:
+Výsledkem je formát typu JSON obsahující seznam segmentů (scén), kde každá obsahuje:
 
 - `scene_info`: informace o segmentu (id, čas začátku a konce, číslo snímku)
 - `ocr_text`: rozpoznaný text

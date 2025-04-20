@@ -8,7 +8,7 @@ Chování systému je řízeno pomocí souboru `config.yml`, který se nachází
 
 | Parametr           | Popis                                 | Možné hodnoty                          | Výchozí hodnota |
 |--------------------|----------------------------------------|----------------------------------------|------------------|
-| `ocr_method`       | Zvolená OCR metoda                    | `tesseract`, `easyocr`, `paddleocr`   | `tesseract`      |
+| `ocr_method`       | Zvolená metoda OCR                    | `tesseract`, `easyocr`, `paddleocr`   | `tesseract`      |
 | `TESS_LANG`        | Jazyková sada Tesseract OCR           | `ces`, `eng`, `cesLEGACY`, ...        | `ces`            |
 | `TESS_OEM`         | Typ enginu (OCR Engine Mode)          | `0`, `1`, `2`, `3`                     | `2`              |
 | `TESS_PSM`         | Režim rozpoznávání rozvržení stránky  | `3`, `6`, `11`, `12`                   | `12`             |
@@ -21,7 +21,7 @@ Chování systému je řízeno pomocí souboru `config.yml`, který se nachází
 
 ---
 
-### 🎬 Segmentace scén
+### 🎬 Segmentace videa
 
 | Parametr                | Popis                                  | Možné hodnoty                        | Výchozí |
 |-------------------------|-----------------------------------------|--------------------------------------|---------|
@@ -49,7 +49,7 @@ Chování systému je řízeno pomocí souboru `config.yml`, který se nachází
 
 | Parametr           | Popis                                         | Výchozí hodnota        |
 |--------------------|-----------------------------------------------|--------------------------|
-| `YOLO_MODEL_PATH`  | Cesta k natrénovanému YOLO modelu             | `yolo/yolov5s.pt`        |
+| `YOLO_MODEL_PATH`  | Cesta k natrénovanému modelu YOLO             | `yolo/yolov5s.pt`        |
 
 ---
 

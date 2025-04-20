@@ -15,8 +15,8 @@ Projekt kombinuje několik modulů:
 ## 📥 Instalace
 
 Instrukce pro spuštění systému:
-- instalace pomocí `docker-compose` nebo lokálně přes `venv`
-- stažení předtrénovaných modelů
+- instalace pomocí `docker-compose`
+- lokální instalace bez dockeru
 - konfigurace prostředí a proměnných
 
 📄 [Dokumentace k instalaci](docs/instalace.md)
@@ -26,9 +26,11 @@ Instrukce pro spuštění systému:
 ## 🚀 REST API – Showcase
 
 Ukázka, jak spustit zpracování videa přes REST API:
-- jak API volat (curl, Python)
-- struktura vstupu a výstupních JSON souborů
-- přehled parametrů
+- Rozhrání Swagger
+- Endpoint
+- Parametry
+- Příklady požadavků
+- Výstup
 
 📄 [Dokumentace k REST API](docs/api.md)
 
@@ -37,8 +39,7 @@ Ukázka, jak spustit zpracování videa přes REST API:
 ## ⚙️ Konfigurace
 
 Všechny komponenty lze přizpůsobit pomocí konfiguračního souboru `config.yml`:
-- volba metody segmentace scén (TransNet, SceneDetect, Autoshot…)
-- výběr OCR (Tesseract, EasyOCR, PaddleOCR)
+- konfigurace hyperparametrů pro OCR a segmentaci videa
 - konfigurace cest k modelům a databázi osob
 
 📄 [Dokumentace ke konfiguraci](docs/konfigurace.md)
