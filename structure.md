@@ -13,6 +13,14 @@ Popis instalace prostředí
 - Instalace závislostí (pip)
 - Nastavení prostředí (`.env`, konfigurace)
 
+
+## 🚀 Showcase: Jak program spustit (Délka: ~200–400 slov + console example)
+Příklad spuštění celého pipeline na testovacím videu:
+- Příprava vstupního videa
+- spuštění systému
+- Výstupní JSON soubory a jejich struktura
+
+
 ## ⚙️ Konfigurace (Délka: ~100–500 slov)
 Jaké **parametry** lze nastavit v každém modulu pro následnou inferenci:
 - **Segmentace scén**: nastavení detekční metody, thresholdy?
@@ -20,7 +28,7 @@ Jaké **parametry** lze nastavit v každém modulu pro následnou inferenci:
 - **Detektor televezních log**: výběr modelu (malý, větší, největší)
 
 📌 **Odkaz na README každého modulu:**
-- [`segmentace-scén/README.md`](segmentace-scén/README.md)
+- [`segmentace-scén/README.md`](segmentace/README.md)
 - [`ocr/README.md`](ocr/README.md)
 
 ## 🖼 GUI pro anotaci segmentů (Délka: ~100–600 slov + screenshoty)
@@ -38,9 +46,4 @@ Jak přidat nové osoby do databáze:
 
 📌 **Odkaz:** [`databaze-osob/README.md`](databaze-osob/README.md)
 
-## 🚀 Showcase: Jak program spustit (Délka: ~200–400 slov + console example)
-Příklad spuštění celého pipeline na testovacím videu:
-- Příprava vstupního videa
-- spuštění systému
-- Výstupní JSON soubory a jejich struktura
 
