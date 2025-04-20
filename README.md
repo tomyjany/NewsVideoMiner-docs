@@ -52,7 +52,7 @@ GUI aplikace pro:
 - vyhledávání obličejů přes Bing API
 - výběr a uložení embeddingů pro pozdější rozpoznání
 
-📄 [Dokumentace k databázi osob](docs/people.md)
+📄 [Dokumentace k databázi osob](docs/people_gui.md)
 
 ---
 
